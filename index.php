@@ -11,6 +11,91 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <!-- Start of Main Header Section -->
+  <header class="main-header">
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-menu" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo.jpg" alt="logo">
+            <span>
+              VennVest <br>
+              Financing Solutions
+            </span>
+          </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="collapse-menu">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+            <li><a href="#about-us"><i class="fa fa-users"></i> About Us</a></li>
+            <li><a href="#finance-solutions"><i class="fa fa-usd"></i> Finance Solutions</a></li>
+            <li><a href="#contact-us"><i class="fa fa-envelope"></i> Contact Us</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+  </header>
+  <!-- Intro Section -->
+  <section class="intro">
+    <div class="intro-overlay">
+      <div class="container">
+        <div class="intro-text">
+          <h1 class="h-1">Real Estate Investment Financing Solutions</h1>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+              <h2 class="h-2">No Muss No Fuss Loans</h2>
+              <p class="text-justify">
+                Simply put, we thrive on real estate. We lend exclusively to real estate investors, and we are fully capitalized so we are always ready to lend.
+                Because we focus primarily on the value of the asset, our process is quick easy and free of hoop jumping.
+              </p>
+              <p class="text-justify">
+                We offer a variety of products to fit investor needs. We have the product for flipping or building a rental portfolio.
+                With today's interest rates at 5.99% and LTV up to 75% our low and no low doc loans give you options and flexibility as you plan your investmentment strategy.
+              </p>
+              <p class="text-justify">We are committed to excellent customer service and fast, simple loans:</p>
+              <ul>
+                <li>NO income verification</li>
+                <li>NO debt to income calculations</li>
+                <li>Close in weeks not months</li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+              <ul class="side-ul">
+                <li>Rates As Low As 5.99%</li>
+                <li>Buy and Hold Products</li>
+                <li>Flip Products</li>
+                <li>Close in Weeks, not Months</li>
+                <li>Up to 75% LTV on Purchases</li>
+                <li>Up to 75% LTV on Refis</li>
+                <li>Min. Loan Amount: $25K</li>
+                <li>Max. Loan Amount: $2M</li>
+                <li>No Doc & Low Doc</li>
+                <li>Refi While the Home is Listed</li>
+                <li>30-Day Seasoning on Refis</li>
+                <li>630 Min. Credit Score</li>
+                <li>Foreign Nationals Approved</li>
+              </ul>
+            </div>
+          </div>
+          <div class="row call-to-action">
+            <div class="col-lg-12 text-center">
+              <a href="#" class="btn btn-default call-to-action-btn">Meeting Investors Financing Needs!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section id="about-us" class="about-us">
     <div class="container">
       <div class="text-center">
