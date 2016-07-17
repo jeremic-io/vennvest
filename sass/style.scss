@@ -1,0 +1,239 @@
+/* Compass */
+@import "compass";
+@import "compass/css3/border-radius";
+
+/* Body */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Main Navigation Menu */
+.navbar {
+  padding:23px 5px 25px 5px;
+  margin-bottom: 0;
+  @include border-radius(0);
+  border: none;
+  border-bottom:2px solid #1BA9CF;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+       -o-box-sizing: border-box;
+          box-sizing: border-box;
+
+  /* Navbar Brand*/
+  .navbar-brand {
+    padding:0;
+    margin:0;
+    img {
+      display: inline-block;
+      width:50px;
+      height:50px;
+      position:relative;
+      top:-14px;
+    }
+    span {
+      display: inline-block;
+      position:relative;
+      top:0px;
+      left:2px;
+      line-height:1.1em;
+      color:#fff;
+      font-size:1.1em;
+      font-family: 'Open Sans', sans-serif;
+    }
+  }
+
+  /* Navbar Toggle */
+  .navbar-toggle {
+    @include border-radius(0);
+    background-color: #1BA9CF;
+    position:relative;
+    left:15px;
+  }
+
+  /* Navbar-nav links */
+  .navbar-nav li {
+    .active-link {
+      background-color: #1BA9CF;
+    }
+    a {
+      color:#fff;
+      &:hover {
+        background-color: #1BA9CF;
+      }
+    }
+  }
+}
+
+.intro {
+  background-image: url('../images/landing.jpg');
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  .intro-overlay {
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    position: relative;
+
+
+    .intro-text {
+      padding-top:100px;
+      -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+          -ms-box-sizing: border-box;
+           -o-box-sizing: border-box;
+              box-sizing: border-box;
+      color:#fff;
+
+      .h-1 {
+        margin:0;
+        margin-bottom:50px;
+        font-family: 'Open Sans', sans-serif;
+        color:#fff;
+        font-size:3em;
+        text-align: center;
+      }
+      .h-2 {
+        margin:0;
+        padding:0;
+        margin-bottom:10px;
+      }
+    }
+  }
+
+  .side-ul {
+    background-color: #1BA9CF;
+    padding:20px;
+    list-style-position: inside;
+  }
+
+}
+
+/* Buttons */
+.btn {
+  @include border-radius(0);
+}
+
+
+.call-to-action-btn {
+  margin:20px 0 20px 0;
+  font-weight:bold;
+  padding:15px;
+  &:hover {
+    background-color: #1BA9CF;
+    color:#fff;
+    border-color:#1BA9CF;
+  }
+}
+
+.table1 {
+  border-collapse: collapse;
+  border: 4px solid #496674;
+
+  td {
+    border: 2px solid #496674;
+    text-align: center;
+  }
+
+  tr:nth-child(odd) {
+    background-color: #B6D9E6;
+  }
+
+  td:first-child {
+    background-color: #1BA9CF;
+    color:#fff;
+  }
+}
+
+.table2 {
+  border-collapse: collapse;
+  border: 4px solid #496674;
+
+  td {
+    border: 2px solid #496674;
+    text-align: center;
+  }
+
+  .blue-bg {
+    background-color: #1BA9CF;
+    color:#fff;
+  }
+  .light-blue-bg {
+    background-color: #B6D9E6;
+  }
+  .border-right{
+    border: 2px solid #9FA3A7;
+  }
+  .grey-bg {
+    background-color: #9FA3A7;
+    border-bottom:2px solid #9FA3A7;
+  }
+}
+
+.section-h2 {
+  border-bottom:4px solid #1BA9CF;
+  display:inline-block;
+  padding-bottom:5px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Forms */
+.form-control {
+  @include border-radius(0);
+}
+
+.main-footer {
+  background-color: #222222;
+  margin-top:10px;
+  padding:10px;
+
+  p {
+    color:#fff;
+  }
+  .blue-color {
+    color: #1BA9CF;
+  }
+
+  .copyright {
+    color:#fff;
+    font-weight:bold;
+
+  }
+}
+
+
+/* Helper classes */
+.last {
+  font-size:0.9em;
+}
+
+.phone {
+  font-weight:bold;
+}
+
+/* Responsive Design */
+.table-responsive {
+  overflow-x: auto;
+}
+
+/* Google Maps */
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 80% !important;
+}
+
+@media screen and (max-width: 480px) {
+  .contact-info {
+    margin-top:10px;
+  }
+}
