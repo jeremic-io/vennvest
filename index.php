@@ -678,7 +678,7 @@
         </div>
         <div class="col-sm-5 col-md-5 col-lg-5 contact-info">
           <div class="google-maps">
-            <iframe style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=17&center=40.6892%2C-74.0445&key=AIzaSyD8K10DyEk7qxuH8kYHNPw7jBHii3argKA"></iframe>
+            <iframe src="https://www.google.com/maps/embed/v1/view?zoom=17&center=40.6892%2C-74.0445&key=AIzaSyD8K10DyEk7qxuH8kYHNPw7jBHii3argKA"></iframe>
           </div>
         </div>
       </div>
