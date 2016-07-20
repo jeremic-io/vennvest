@@ -66,39 +66,34 @@ body {
 }
 
 .intro {
-  background-image: url('../images/landing.jpg');
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('../images/landing.jpg');
   background-position: top center;
   background-size: cover;
   background-attachment: fixed;
 
-  .intro-overlay {
-    height: 100%;
-    background-color: rgba(0,0,0,0.8);
-    position: relative;
 
 
-    .intro-text {
-      padding-top:100px;
-      -webkit-box-sizing: border-box;
-         -moz-box-sizing: border-box;
-          -ms-box-sizing: border-box;
-           -o-box-sizing: border-box;
-              box-sizing: border-box;
+  .intro-text {
+    padding-top:100px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+         -o-box-sizing: border-box;
+            box-sizing: border-box;
+    color:#fff;
+
+    .h-1 {
+      margin:0;
+      margin-bottom:50px;
+      font-family: 'Open Sans', sans-serif;
       color:#fff;
-
-      .h-1 {
-        margin:0;
-        margin-bottom:50px;
-        font-family: 'Open Sans', sans-serif;
-        color:#fff;
-        font-size:3em;
-        text-align: center;
-      }
-      .h-2 {
-        margin:0;
-        padding:0;
-        margin-bottom:10px;
-      }
+      font-size:3em;
+      text-align: center;
+    }
+    .h-2 {
+      margin:0;
+      padding:0;
+      margin-bottom:10px;
     }
   }
 
