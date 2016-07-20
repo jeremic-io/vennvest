@@ -661,18 +661,18 @@
       </p>
       <div class="row">
         <div class="col-sm-7 col-md-7 col-lg-7">
-          <form>
+          <form id="contact-form" method="post">
             <div class="form-group">
               <label for="name">Name:</label>
-              <input type="text" id="name" class="form-control" name="name">
+              <input type="text" id="name" class="form-control" name="name" required>
             </div>
             <div class="form-group">
               <label for="email">Email address:</label>
-              <input type="email" class="form-control" id="email">
+              <input type="email" class="form-control" id="email" required>
             </div>
             <div class="form-group">
               <label for="message">Message:</label>
-              <textarea name="message" id="message" class="form-control"></textarea>
+              <textarea name="message" id="message" class="form-control" required></textarea>
             </div>
             <button type="submit" class="btn btn-default">Submit</button>
           </form>
