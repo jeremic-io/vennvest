@@ -6,6 +6,7 @@
   <title>Vennvest Financing Solutions</title>
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -703,6 +704,6 @@
 
   <!-- Javascript files -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 </html>
